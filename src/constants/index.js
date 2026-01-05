@@ -1,0 +1,557 @@
+import {
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+  glorious,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+  automation,
+  webdev,
+  crm,
+  social,
+  slack,
+  google_workspace,
+  chatgpt,
+  claude,
+  google_drive,
+  monday,
+  trello,
+  airtable,
+  clickup,
+  zapier_workflow,
+  asana_workflow,
+  zapier_ecommerce_workflow,
+  n8n_chatbot,
+  ghl_appointment_workflow,
+  ghl_lead_routing_workflow,
+  cresta_workflow,
+  ghl_call_disposition_workflow,
+  rfc_fire_safety_funnel,
+  clario_fire_safety,
+  weather_api_app,
+  cosmic_explorer,
+  adu_depot,
+  asv_social_graphic,
+  glorious_brand_logo,
+  iriscx_social_graphic,
+  asv_construction,
+} from "../assets";
+
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+const services = [
+  {
+    title: "Workflow Automation",
+    description: "Building smart automations using Zapier, GoHighLevel, and n8n that eliminate repetitive tasks and reduce manual work by up to 60%.",
+    icon: automation,
+  },
+  {
+    title: "Website Development",
+    description: "Creating professional websites using WordPress, Webflow, or custom code (HTML, CSS, JavaScript, React, Laravel) — whatever fits your needs.",
+    icon: webdev,
+  },
+  {
+    title: "CRM & Lead Management",
+    description: "Setting up GoHighLevel systems with automated follow-ups, lead tracking, and reporting dashboards that increase lead capture by 30%.",
+    icon: crm,
+  },
+  {
+    title: "Social Media Management",
+    description: "Designing graphics, scheduling posts, and managing your social presence to keep your brand consistent and engaging.",
+    icon: social,
+  },
+];
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+];
+
+const automationTools = [
+  { name: "GoHighLevel", icon: crm }, // Reusing the crm icon which is HighLevel
+  { name: "Zapier", icon: "https://cdn.simpleicons.org/zapier/FF4F00" },
+  { name: "n8n", icon: "https://cdn.simpleicons.org/n8n/FF6584" },
+  { name: "ChatGPT", icon: chatgpt },
+  { name: "Claude", icon: claude },
+  { name: "Google Workspace", icon: google_workspace },
+  { name: "Google Drive", icon: google_drive },
+  { name: "Google Sheets", icon: "https://cdn.simpleicons.org/googlesheets/34A853" },
+  { name: "Calendly", icon: "https://cdn.simpleicons.org/calendly/006BFF" },
+  { name: "Dropbox", icon: "https://cdn.simpleicons.org/dropbox/0061FF" },
+  { name: "Slack", icon: slack },
+  { name: "Trello", icon: trello },
+  { name: "Monday.com", icon: monday },
+  { name: "Notion", icon: "https://cdn.simpleicons.org/notion/000000" },
+  { name: "Airtable", icon: airtable },
+  { name: "ClickUp", icon: clickup },
+  { name: "Zoom", icon: "https://cdn.simpleicons.org/zoom/2D8CFF" },
+  { name: "Webhooks", icon: "https://img.icons8.com/ios-filled/50/orange/webhook.png" },
+  { name: "HTTP Request", icon: "https://img.icons8.com/ios-filled/50/4CAF50/api-settings.png" },
+];
+
+const webTechStack = [
+  { name: "HTML5", icon: html },
+  { name: "CSS3", icon: css },
+  { name: "JavaScript", icon: javascript },
+  { name: "React", icon: reactjs },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "MySQL", icon: "https://cdn.simpleicons.org/mysql/4479A1" },
+  { name: "PHP", icon: "https://cdn.simpleicons.org/php/777BB4" },
+  { name: "Laravel", icon: "https://cdn.simpleicons.org/laravel/FF2D20" },
+  { name: "Three.js", icon: threejs },
+  { name: "WordPress", icon: "https://cdn.simpleicons.org/wordpress/21759B" },
+  { name: "Elementor", icon: "https://cdn.simpleicons.org/elementor/92003B" },
+  { name: "Webflow", icon: "https://cdn.simpleicons.org/webflow/4353FF" },
+  { name: "Figma", icon: figma },
+  { name: "Hostinger", icon: "https://cdn.simpleicons.org/hostinger/673DE6" },
+  { name: "Git", icon: git },
+];
+
+const experiences = [
+  {
+    title: "Web Developer & GoHighLevel Specialist",
+    company_name: "Glorious Digital Solutions",
+    icon: glorious,
+    iconBg: "#000000",
+    date: "July 2024 - November 2025",
+    points: [
+      "Designed and launched 5+ client websites using Hostinger and Webflow, improving client online visibility and conversions.",
+      "Built and automated 40+ workflows in GoHighLevel based on Cresta call dispositions, reducing lead tracking errors by 90%.",
+      "Created custom Cresta fields to capture call keywords, reducing manual tracking time by 60%.",
+      "Developed dynamic reporting dashboards to visualize call outcomes, enhancing sales team decision-making.",
+      "Designed high-converting funnels and lead generation pages, increasing lead capture rates by up to 30%.",
+    ],
+  },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "Raphael built our automated workflows in GoHighLevel and it completely transformed how we track leads. Highly recommended!",
+    name: "Client",
+    designation: "CEO",
+    company: "ASV Development",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
+  },
+  {
+    testimonial:
+      "Professional, fast, and delivers real results. Our lead tracking errors dropped by 90% after working with Raphael.",
+    name: "Client",
+    designation: "Owner",
+    company: "RFC FireStopping",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "Raphael's automation skills saved us hours of manual work every week. He truly understands business efficiency.",
+    name: "Client",
+    designation: "Manager",
+    company: "Clario Fire Safety",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+  {
+    testimonial:
+      "Raphael integrated our CRM with Slack and Airtable seamlessly. We never miss a lead now!",
+    name: "Client",
+    designation: "Director",
+    company: "TechFlow Solutions",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
+  }
+];
+
+const portfolioProjects = [
+  {
+    id: "zapier",
+    name: "Zapier",
+    projects: [
+      {
+        title: "Content Repurposing Automation",
+        label: "Zapier Automation",
+        description: "End-to-end workflow that transforms video/audio files into blog posts and social media content. Triggered by Google Drive upload, it generates AI transcripts, creates blog posts, splits into loops, uses conditional paths, auto-posts to Facebook, and logs everything to Google Sheets.",
+        tags: [
+          { name: "zapier", color: "orange-text-gradient" },
+          { name: "ai", color: "pink-text-gradient" },
+          { name: "automation", color: "blue-text-gradient" },
+          { name: "google-sheets", color: "green-text-gradient" },
+        ],
+        image: zapier_workflow,
+        source_code_link: "https://drive.google.com/drive/folders/19P8jf43p4GBeFwLtUgGJreXxIGA1UQtS?usp=sharing",
+      },
+      {
+        title: "Asana CRM Automation System",
+        label: "Zapier Automation",
+        description: "5-in-1 workflow automation for Asana CRM that handles the entire lead lifecycle. Includes folder creation with subtasks, follow-up sequences for unresponsive leads, quote follow-ups, personalized welcome emails with PDF attachments, and service recommendation emails with 3 variations based on service type.",
+        tags: [
+          { name: "zapier", color: "orange-text-gradient" },
+          { name: "asana", color: "pink-text-gradient" },
+          { name: "crm", color: "blue-text-gradient" },
+          { name: "gmail", color: "green-text-gradient" },
+          { name: "google-drive", color: "orange-text-gradient" },
+        ],
+        image: asana_workflow,
+        source_code_link: "https://drive.google.com/drive/folders/12TFAzdgeHtYj4wK4buICybaaxIv9vwWJ?usp=sharing",
+      },
+      {
+        title: "Smart Lead Qualification & Automated Follow-Up",
+        label: "Zapier Automation",
+        description: "Fully automated lead-handling system that captures leads via webhook, enriches data using Apollo API, scores and prioritizes leads by company size, then routes them accordingly — high-priority leads get saved to Google Sheets, notified via Slack, and receive AI-generated personalized emails. Low-priority leads get a simple email notification.",
+        tags: [
+          { name: "zapier", color: "orange-text-gradient" },
+          { name: "webhook", color: "blue-text-gradient" },
+          { name: "apollo", color: "pink-text-gradient" },
+          { name: "slack", color: "green-text-gradient" },
+          { name: "ai", color: "pink-text-gradient" },
+          { name: "google-sheets", color: "green-text-gradient" },
+        ],
+        image: zapier_ecommerce_workflow,
+        source_code_link: "https://drive.google.com/drive/folders/1ixMwlESfRjRVQ2PUK197qTtKj0g_4H_F?usp=sharing",
+      },
+    ],
+  },
+  {
+    id: "n8n",
+    name: "n8n",
+    projects: [
+      {
+        title: "AI Chatbot for Facebook Messenger",
+        label: "n8n Automation",
+        description: "Self-hosted AI chatbot that automatically responds to Facebook Messenger inquiries using a custom company knowledge base. Built with Google Gemini as the chat model, includes conversation memory for context-aware responses, and uses webhooks to connect with Facebook's API in real-time.",
+        tags: [
+          { name: "n8n", color: "pink-text-gradient" },
+          { name: "ai", color: "pink-text-gradient" },
+          { name: "facebook", color: "blue-text-gradient" },
+          { name: "gemini", color: "blue-text-gradient" },
+          { name: "webhook", color: "orange-text-gradient" },
+          { name: "chatbot", color: "green-text-gradient" },
+        ],
+        image: n8n_chatbot,
+        source_code_link: "https://drive.google.com/drive/folders/1FYifZ02TPN0SQSR1vqBpTGpwpFixJxUd?usp=sharing",
+      },
+
+    ],
+  },
+  {
+    id: "ghl",
+    name: "GoHighLevel",
+    projects: [
+      {
+        title: "Booking Appointment & Reminder System",
+        label: "GoHighLevel Automation",
+        description: "Complete appointment management workflow handling 5,793+ contacts. Triggers on booking, removes lead from nurture, creates/updates opportunity, sends confirmation email, then delivers 24-hour and 1-hour reminder emails + SMS to reduce no-shows.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "crm", color: "blue-text-gradient" },
+          { name: "automation", color: "pink-text-gradient" },
+          { name: "sms", color: "green-text-gradient" },
+          { name: "email", color: "orange-text-gradient" },
+        ],
+        image: ghl_appointment_workflow,
+        source_code_link: "https://drive.google.com/drive/folders/1uTV9jZUbOk5OuJPaODUwaeCPM5Jy8GTU?usp=sharing",
+      },
+      {
+        title: "Smart Lead Routing for Real Estate",
+        label: "GoHighLevel Automation",
+        description: "Intelligent lead qualification system for Single Tree Team real estate. Routes survey submissions by lead type (Buyer/Seller/Both), auto-tags contacts, creates pipeline opportunities, syncs to KvCore CRM via webhook, and triggers follow-up sequences for unresponsive leads.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "crm", color: "blue-text-gradient" },
+          { name: "real-estate", color: "green-text-gradient" },
+          { name: "automation", color: "pink-text-gradient" },
+          { name: "webhook", color: "orange-text-gradient" },
+        ],
+        image: ghl_lead_routing_workflow,
+        source_code_link: "https://drive.google.com/drive/folders/1VQaWp3hj0OWQOhGuP2WPeHu3ucjoBNTX?usp=sharing",
+      },
+      {
+        title: "Cresta AI Call Analytics Integration",
+        label: "GoHighLevel Automation",
+        description: "Built a complete Cresta-to-GoHighLevel integration for a Medicare sales team. Created 9 custom CRM fields mapped to Cresta AI call data, automated workflows that trigger on field changes to tag contacts and notify team members. Tracks compliance fields (TPMO, SOA, Recording Consent) and enriches contact profiles with call intelligence data from 14,275+ calls.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "cresta", color: "blue-text-gradient" },
+          { name: "api", color: "pink-text-gradient" },
+          { name: "medicare", color: "green-text-gradient" },
+          { name: "automation", color: "orange-text-gradient" },
+          { name: "compliance", color: "blue-text-gradient" },
+        ],
+        image: cresta_workflow,
+        source_code_link: "https://drive.google.com/drive/folders/1urVP8Bhe-cO0NiWIhavi7J_L3Gcg3Lrq?usp=sharing",
+      },
+      {
+        title: "40+ Call Disposition Routing System",
+        label: "GoHighLevel Automation",
+        description: "Massive automation workflow handling 40+ call dispositions for a Medicare sales team. Automatically tags leads, updates contact fields, and routes them into appropriate follow-up workflows based on disposition type (No Interest, Call Back, Dead Air, Scheduled Callback, Deceased, Do Not Call, etc.). Reduced manual tracking errors by 90% and manual work by 60%.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "crm", color: "blue-text-gradient" },
+          { name: "automation", color: "pink-text-gradient" },
+          { name: "medicare", color: "green-text-gradient" },
+          { name: "dispositions", color: "orange-text-gradient" },
+        ],
+        image: ghl_call_disposition_workflow,
+        source_code_link: "https://drive.google.com/drive/folders/1GJQJ37YoUnW2dt6_xnfGx6CXh9jgG2rk?usp=sharing",
+      },
+      {
+        title: "RFC Fire Stopping – Compliance Funnel",
+        label: "GoHighLevel Funnel",
+        description: "A GoHighLevel funnel built for a fire safety compliance company to educate businesses on legal requirements, highlight non-compliance risks, and drive bookings for free fire risk assessments and consultations through clear, urgency-focused messaging.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "funnels", color: "blue-text-gradient" },
+          { name: "fire-safety", color: "pink-text-gradient" },
+          { name: "compliance", color: "green-text-gradient" },
+          { name: "lead-generation", color: "orange-text-gradient" },
+        ],
+        image: rfc_fire_safety_funnel,
+        source_code_link: "https://drive.google.com/drive/folders/1hc49kDsZaTrr-mBgRcUyKXEZZH4DudBL?usp=sharing",
+      },
+    ],
+  },
+  {
+    id: "webflow",
+    name: "Webflow",
+    projects: [
+      {
+        title: "Clario Fire Safety Engineers – Corporate Website",
+        label: "Webflow Website",
+        description: "A professional Webflow website for a fire safety engineering company, featuring a clean navigation structure, strong hero messaging, and a clear focus on fire safety solutions for commercial and residential properties.",
+        tags: [
+          { name: "webflow", color: "blue-text-gradient" },
+          { name: "business-website", color: "green-text-gradient" },
+          { name: "fire-safety", color: "pink-text-gradient" },
+          { name: "corporate-site", color: "orange-text-gradient" },
+          { name: "service-business", color: "blue-text-gradient" },
+          { name: "responsive-design", color: "green-text-gradient" },
+        ],
+        image: clario_fire_safety,
+        source_code_link: "https://clariofiresafetyengineer.webflow.io/?fbclid=IwY2xjawPIuChleHRuA2FlbQIxMABicmlkETFVMmdLQnl2WVBiclA3bkg1c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHk7TOqbbW_a3f4GW_oJWbjoXboYF3G4U7xP7CCOYHbYgXlEGisHbpTEEW3wg_aem_IQhd32eBwi5qN7qVfpMZ0Q",
+      },
+    ],
+  },
+  {
+    id: "wordpress",
+    name: "WordPress",
+    projects: [
+      {
+        title: "Business Website with Elementor",
+        label: "WordPress Development",
+        description: "Full business website built with WordPress and Elementor, featuring service pages, blog, contact forms, and basic SEO setup.",
+        tags: [{ name: "Portfolio", color: "orange-text-gradient" }],
+        image: tripguide, // Placeholder
+        source_code_link: "#",
+      },
+
+    ],
+  },
+  {
+    id: "code",
+    name: "Website (Code)",
+    projects: [
+      {
+        title: "Weather API Application",
+        label: "API-Based Web Application",
+        description: "A simple weather web application that allows users to search for any city and view real-time weather data using the OpenWeatherMap API, presented with a clean UI and responsive layout.",
+        tags: [
+          { name: "api", color: "blue-text-gradient" },
+          { name: "weather-app", color: "green-text-gradient" },
+          { name: "javascript", color: "pink-text-gradient" },
+          { name: "openweathermap", color: "orange-text-gradient" },
+          { name: "web-development", color: "blue-text-gradient" },
+          { name: "portfolio-project", color: "green-text-gradient" },
+        ],
+        image: weather_api_app,
+        source_code_link: "https://github.com/culabaraphael/IT-110-Midterm-Project.git",
+      },
+      {
+        title: "Cosmic Explorer – NASA API Web Application",
+        label: "Full-Stack Web Application",
+        description: "A full-stack web application powered by NASA’s APOD API that lets users explore space imagery, filter and search discoveries, and save favorites with personal notes through an authenticated journal system.",
+        tags: [
+          { name: "nasa-api", color: "blue-text-gradient" },
+          { name: "fullstack", color: "green-text-gradient" },
+          { name: "laravel", color: "pink-text-gradient" },
+          { name: "react", color: "orange-text-gradient" },
+          { name: "inertiajs", color: "blue-text-gradient" },
+          { name: "tailwindcss", color: "green-text-gradient" },
+          { name: "api-integration", color: "pink-text-gradient" },
+          { name: "portfolio-project", color: "orange-text-gradient" },
+        ],
+        image: cosmic_explorer,
+        source_code_link: "https://github.com/culabaraphael/space-explorer.git",
+      },
+      {
+        title: "The ADU Depot – Real Estate & ADU Platform Website",
+        label: "Business Website",
+        description: "A modern business website for an ADU-focused real estate platform, featuring strong hero messaging, clear navigation, and a mission-driven layout designed to guide homeowners toward building accessible and affordable ADUs.",
+        tags: [
+          { name: "web-development", color: "blue-text-gradient" },
+          { name: "real-estate", color: "green-text-gradient" },
+          { name: "adu", color: "pink-text-gradient" },
+          { name: "business-website", color: "orange-text-gradient" },
+          { name: "modern-ui", color: "blue-text-gradient" },
+          { name: "landing-page", color: "green-text-gradient" },
+          { name: "html", color: "pink-text-gradient" },
+          { name: "css", color: "orange-text-gradient" },
+          { name: "javascript", color: "blue-text-gradient" },
+        ],
+        image: adu_depot,
+        source_code_link: "https://theadudepot.com/",
+      },
+    ],
+  },
+  {
+    id: "hostinger",
+    name: "Hostinger",
+    projects: [
+      {
+        title: "ASV Development – Construction Company Website",
+        label: "Business Website",
+        description: "A clean and professional construction company website built on Hostinger, featuring service sections, recent projects, customer testimonials, and clear contact and quotation call-to-actions designed to build trust and generate leads.",
+        tags: [
+          { name: "web-development", color: "blue-text-gradient" },
+          { name: "construction-website", color: "green-text-gradient" },
+          { name: "business-website", color: "pink-text-gradient" },
+          { name: "hostinger", color: "orange-text-gradient" },
+          { name: "ui-design", color: "blue-text-gradient" },
+          { name: "service-business", color: "green-text-gradient" },
+        ],
+        image: asv_construction,
+        source_code_link: "https://drive.google.com/drive/folders/1hbQN3tu1Ty61V5qdebSG_KszyqhrB5B_?usp=sharing",
+      },
+    ],
+  },
+  {
+    id: "social",
+    name: "Social Media Graphics",
+    projects: [
+      {
+        title: "ASV Development – Home Improvement Social Media Graphic",
+        label: "Marketing Graphic",
+        description: "A promotional social media graphic designed for a home improvement company, featuring bold messaging, clear contact details, and a strong call-to-action to drive consultations and customer inquiries.",
+        tags: [
+          { name: "social-media-design", color: "blue-text-gradient" },
+          { name: "home-improvement", color: "green-text-gradient" },
+          { name: "branding", color: "pink-text-gradient" },
+          { name: "marketing-graphics", color: "orange-text-gradient" },
+          { name: "business-promotion", color: "blue-text-gradient" },
+        ],
+        image: asv_social_graphic,
+        source_code_link: "https://drive.google.com/drive/folders/1uuxeXn4Z8yd-vGgZFz-oGp6gmU6xfpCx?usp=sharing",
+      },
+      {
+        title: "Glorious Digital Solutions – Brand Logo Design",
+        label: "Logo Design",
+        description: "A clean and modern logo designed for a digital solutions brand, featuring a minimal monogram style and professional color palette suitable for social media branding and online presence.",
+        tags: [
+          { name: "logo-design", color: "blue-text-gradient" },
+          { name: "branding", color: "green-text-gradient" },
+          { name: "digital-agency", color: "pink-text-gradient" },
+          { name: "social-media-branding", color: "orange-text-gradient" },
+          { name: "visual-identity", color: "blue-text-gradient" },
+        ],
+        image: glorious_brand_logo,
+        source_code_link: "https://www.facebook.com/profile.php?id=61576245862757",
+      },
+      {
+        title: "IrisCX – LinkedIn Event Announcement Graphic",
+        label: "LinkedIn Marketing Graphic",
+        description: "A professional LinkedIn graphic announcing IrisCX’s participation in the Happy Summit, highlighting company leadership, event details, and branding in a clean, corporate-focused layout designed for B2B audiences.",
+        tags: [
+          { name: "linkedin-design", color: "blue-text-gradient" },
+          { name: "b2b-marketing", color: "green-text-gradient" },
+          { name: "event-announcement", color: "pink-text-gradient" },
+          { name: "corporate-branding", color: "orange-text-gradient" },
+          { name: "social-media-graphics", color: "blue-text-gradient" },
+        ],
+        image: iriscx_social_graphic,
+        source_code_link: "https://drive.google.com/drive/folders/1uuxeXn4Z8yd-vGgZFz-oGp6gmU6xfpCx?usp=sharing",
+      },
+
+    ],
+  },
+];
+
+export { services, technologies, experiences, testimonials, portfolioProjects, automationTools, webTechStack };
