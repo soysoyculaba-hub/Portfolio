@@ -57,7 +57,7 @@ const Tech = () => {
           <p className="text-[#915EFF] font-bold text-[18px] tracking-wider text-center mb-2 uppercase">
             AUTOMATION & PRODUCTIVITY TOOLS
           </p>
-          <MarqueeRow items={automationTools} duration={30} />
+          <MarqueeRow items={automationTools} duration={45} />
         </div>
 
         {/* Row 2: Web Development - Slower Speed */}
