@@ -11,7 +11,7 @@ import CanvasLoader from "./Loader";
 import GridBackground from "./GridBackground";
 import Preloader from "./Preloader";
 
-
+import SmoothScroll from "./SmoothScroll";
 export {
   Hero,
   Navbar,
@@ -27,5 +27,6 @@ export {
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,
-  StarsCanvas
+  StarsCanvas,
+  SmoothScroll
 };
