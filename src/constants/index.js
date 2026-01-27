@@ -57,6 +57,7 @@ import {
   asv_construction,
   accelerated,
   n8n_retell_logger,
+  elite_barbers,
 } from "../assets";
 
 
@@ -190,6 +191,7 @@ const webTechStack = [
   { name: "Webflow", icon: "https://cdn.simpleicons.org/webflow/4353FF" },
   { name: "Figma", icon: figma },
   { name: "Hostinger", icon: "https://cdn.simpleicons.org/hostinger/673DE6" },
+  { name: "cPanel", icon: "https://cdn.simpleicons.org/cpanel/FF6C2C" },
   { name: "Git", icon: git },
 ];
 
@@ -476,6 +478,19 @@ const portfolioProjects = [
     id: "code",
     name: "Website (Code)",
     projects: [
+      {
+        title: "Elite Barbers",
+        label: "Premium Grooming Website",
+        description: "Experience the finest traditional Turkish barbering at Elite Barbers. Expert cuts, shaves, and grooming in WC1. Features a modern UI, service menu, and contact information.",
+        tags: [
+          { name: "html", color: "blue-text-gradient" },
+          { name: "css", color: "green-text-gradient" },
+          { name: "javascript", color: "pink-text-gradient" },
+          { name: "responsive", color: "orange-text-gradient" },
+        ],
+        image: elite_barbers,
+        source_code_link: "https://effervescent-biscochitos-31a1cf.netlify.app/",
+      },
       {
         title: "Weather API Application",
         label: "API-Based Web Application",

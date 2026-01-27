@@ -66,6 +66,7 @@ import glorious_brand_logo from "./glorious_brand_logo.jpg";
 import iriscx_social_graphic from "./iriscx_social_graphic.png";
 import asv_construction from "./asv_construction.jpg";
 import n8n_retell_logger from "./n8n_retell_logger.png";
+import elite_barbers from "./elite_barbers.png";
 
 export {
   logo,
@@ -131,4 +132,5 @@ export {
   iriscx_social_graphic,
   asv_construction,
   n8n_retell_logger,
+  elite_barbers,
 };
