@@ -222,7 +222,7 @@ const experiences = [
     company_name: "Accelerated Tech Service",
     icon: accelerated,
     iconBg: "#FFFFFF",
-    date: "Dec 2025 - Present",
+    date: "Dec 2025 - Jan 2026",
     points: [
       "Developed and maintained responsive website pages using HTML, CSS, and JavaScript.",
       "Integrated website forms with Google Forms and automated data capture into Google Sheets for lead tracking and internal workflows.",
@@ -237,7 +237,7 @@ const experiences = [
     company_name: "Willowbrook Property Solutions",
     icon: willowbrook,
     iconBg: "#ffffff",
-    date: "Jan 2026 - Present",
+    date: "Jan 2026",
     points: [
       "Designed and implemented high-converting funnels and website automations to streamline lead acquisition.",
       "Developed custom dashboards to provide actionable business insights and real-time performance tracking.",
