@@ -236,7 +236,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer & GoHighLevel Expert",
+    title: "GoHighLevel Expert",
     company_name: "Willowbrook Property Solutions",
     icon: willowbrook,
     iconBg: "#ffffff",
