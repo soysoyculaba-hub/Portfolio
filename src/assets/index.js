@@ -28,6 +28,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import glorious from "./company/glorious.jpg";
 import accelerated from "./company/accelerated.jpg";
+import willowbrook from "./company/willowbrook.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -101,6 +102,7 @@ export {
   tesla,
   glorious,
   accelerated,
+  willowbrook,
   carrent,
   jobit,
   tripguide,

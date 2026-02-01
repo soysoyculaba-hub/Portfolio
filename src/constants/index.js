@@ -62,6 +62,7 @@ import {
   ghl_website_seller,
   ghl_funnel_seller,
   ghl_funnel_buyer,
+  willowbrook,
 } from "../assets";
 
 
@@ -229,6 +230,19 @@ const experiences = [
       "Implemented SEO improvements, including on-page optimization, semantic HTML, and performance best practices to enhance search visibility.",
       "Conducted ongoing website updates, bug fixes, and content improvements based on business needs.",
       "Collaborated with stakeholders to implement design and functionality enhancements efficiently.",
+    ],
+  },
+  {
+    title: "Web Developer & GoHighLevel Expert",
+    company_name: "Willowbrook Property Solutions",
+    icon: willowbrook,
+    iconBg: "#ffffff",
+    date: "Jan 2026 - Present",
+    points: [
+      "Designed and implemented high-converting funnels and website automations to streamline lead acquisition.",
+      "Developed custom dashboards to provide actionable business insights and real-time performance tracking.",
+      "Built a fully integrated CRM system in GoHighLevel specifically tailored for real estate business operations.",
+      "Orchestrated complex workflows to automate follow-ups and lead management, improving operational efficiency.",
     ],
   },
 ];
