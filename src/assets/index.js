@@ -67,7 +67,10 @@ import iriscx_social_graphic from "./iriscx_social_graphic.png";
 import asv_construction from "./asv_construction.jpg";
 import n8n_retell_logger from "./n8n_retell_logger.png";
 import elite_barbers from "./elite_barbers.png";
-import willowbrook_funnel from "./willowbrook_funnel.png";
+import ghl_website_buyer from "./ghl_website_buyer.png";
+import ghl_website_seller from "./ghl_website_seller.png";
+import ghl_funnel_seller from "./ghl_funnel_seller.png";
+import ghl_funnel_buyer from "./ghl_funnel_buyer.png";
 
 export {
   logo,
@@ -134,5 +137,8 @@ export {
   asv_construction,
   n8n_retell_logger,
   elite_barbers,
-  willowbrook_funnel,
+  ghl_website_buyer,
+  ghl_website_seller,
+  ghl_funnel_seller,
+  ghl_funnel_buyer,
 };

@@ -58,7 +58,10 @@ import {
   accelerated,
   n8n_retell_logger,
   elite_barbers,
-  willowbrook_funnel,
+  ghl_website_buyer,
+  ghl_website_seller,
+  ghl_funnel_seller,
+  ghl_funnel_buyer,
 } from "../assets";
 
 
@@ -369,6 +372,58 @@ const portfolioProjects = [
     name: "GoHighLevel",
     projects: [
       {
+        title: "Real Estate Buyer Website",
+        label: "GoHighLevel Website",
+        description: "A professional real estate investing website designed to attract off-market deals and cash buyers. Features a clean, high-equity focused layout with clear value propositions and strong calls to action.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "website-design", color: "blue-text-gradient" },
+          { name: "real-estate", color: "green-text-gradient" },
+          { name: "figma", color: "pink-text-gradient" },
+        ],
+        image: ghl_website_buyer,
+        source_code_link: "https://www.figma.com/design/YxZRbkjKaN9NapyQ5xIv1C/Funnel-and-Website-Design--GoHighLevel-?node-id=4-33&t=v3Psz7Vl1G4EaiLQ-1",
+      },
+      {
+        title: "Real Estate Seller Website",
+        label: "GoHighLevel Website",
+        description: "A conversion-optimized website for purchasing homes for cash. Designed to build trust with motivated sellers through testimonials, a clear 'How It Works' process, and easy-to-use inquiry forms.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "website-design", color: "blue-text-gradient" },
+          { name: "real-estate", color: "green-text-gradient" },
+          { name: "lead-generation", color: "pink-text-gradient" },
+        ],
+        image: ghl_website_seller,
+        source_code_link: "https://www.figma.com/design/YxZRbkjKaN9NapyQ5xIv1C/Funnel-and-Website-Design--GoHighLevel-?node-id=4-33&t=v3Psz7Vl1G4EaiLQ-1",
+      },
+      {
+        title: "Seller Lead Funnel",
+        label: "GoHighLevel Funnel",
+        description: "High-converting sales funnel targeted at homeowners looking to sell fast without repairs. Features stress-free selling points, guaranteed closing offers, and a streamlined multi-step form to capture high-intent leads.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "funnels", color: "pink-text-gradient" },
+          { name: "real-estate", color: "green-text-gradient" },
+          { name: "conversion-rate-optimization", color: "blue-text-gradient" },
+        ],
+        image: ghl_funnel_seller,
+        source_code_link: "https://www.figma.com/design/YxZRbkjKaN9NapyQ5xIv1C/Funnel-and-Website-Design--GoHighLevel-?node-id=4-33&t=v3Psz7Vl1G4EaiLQ-1",
+      },
+      {
+        title: "Buyer Investor Funnel",
+        label: "GoHighLevel Funnel",
+        description: "Exclusive access funnel for serious real estate investors. Designed to build a cash buyers list by offering priority access to off-market deals, leveraging scarcity and exclusivity to drive sign-ups.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "funnels", color: "pink-text-gradient" },
+          { name: "real-estate", color: "green-text-gradient" },
+          { name: "list-building", color: "blue-text-gradient" },
+        ],
+        image: ghl_funnel_buyer,
+        source_code_link: "https://www.figma.com/design/YxZRbkjKaN9NapyQ5xIv1C/Funnel-and-Website-Design--GoHighLevel-?node-id=4-33&t=v3Psz7Vl1G4EaiLQ-1",
+      },
+      {
         title: "Booking Appointment & Reminder System",
         label: "GoHighLevel Automation",
         description: "Complete appointment management workflow handling 5,793+ contacts. Triggers on booking, removes lead from nurture, creates/updates opportunity, sends confirmation email, then delivers 24-hour and 1-hour reminder emails + SMS to reduce no-shows.",
@@ -438,20 +493,6 @@ const portfolioProjects = [
         ],
         image: rfc_fire_safety_funnel,
         source_code_link: "https://drive.google.com/drive/folders/1hc49kDsZaTrr-mBgRcUyKXEZZH4DudBL?usp=sharing",
-      },
-      {
-        title: "Willowbrook Property Solutions",
-        label: "Real Estate Funnel",
-        description: "A high-converting real estate landing page designed to capture motivated seller leads. Features a clean, trustworthy design, a multi-step cash offer form, and clear value propositions to guide homeowners through the selling process.",
-        tags: [
-          { name: "gohighlevel", color: "orange-text-gradient" },
-          { name: "funnels", color: "blue-text-gradient" },
-          { name: "real-estate", color: "green-text-gradient" },
-          { name: "lead-generation", color: "pink-text-gradient" },
-          { name: "automation", color: "orange-text-gradient" },
-        ],
-        image: willowbrook_funnel,
-        source_code_link: "#",
       },
     ],
   },
