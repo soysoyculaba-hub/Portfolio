@@ -58,6 +58,7 @@ import {
   accelerated,
   n8n_retell_logger,
   elite_barbers,
+  willowbrook_funnel,
 } from "../assets";
 
 
@@ -437,6 +438,20 @@ const portfolioProjects = [
         ],
         image: rfc_fire_safety_funnel,
         source_code_link: "https://drive.google.com/drive/folders/1hc49kDsZaTrr-mBgRcUyKXEZZH4DudBL?usp=sharing",
+      },
+      {
+        title: "Willowbrook Property Solutions",
+        label: "Real Estate Funnel",
+        description: "A high-converting real estate landing page designed to capture motivated seller leads. Features a clean, trustworthy design, a multi-step cash offer form, and clear value propositions to guide homeowners through the selling process.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "funnels", color: "blue-text-gradient" },
+          { name: "real-estate", color: "green-text-gradient" },
+          { name: "lead-generation", color: "pink-text-gradient" },
+          { name: "automation", color: "orange-text-gradient" },
+        ],
+        image: willowbrook_funnel,
+        source_code_link: "#",
       },
     ],
   },

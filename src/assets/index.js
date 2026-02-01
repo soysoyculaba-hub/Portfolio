@@ -67,6 +67,7 @@ import iriscx_social_graphic from "./iriscx_social_graphic.png";
 import asv_construction from "./asv_construction.jpg";
 import n8n_retell_logger from "./n8n_retell_logger.png";
 import elite_barbers from "./elite_barbers.png";
+import willowbrook_funnel from "./willowbrook_funnel.png";
 
 export {
   logo,
@@ -133,4 +134,5 @@ export {
   asv_construction,
   n8n_retell_logger,
   elite_barbers,
+  willowbrook_funnel,
 };
