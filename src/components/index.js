@@ -8,6 +8,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Certificates from "./Certificates";
 import GridBackground from "./GridBackground";
 import Preloader from "./Preloader";
 
@@ -28,5 +29,6 @@ export {
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
-  SmoothScroll
+  SmoothScroll,
+  Certificates
 };

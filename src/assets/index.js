@@ -72,6 +72,9 @@ import ghl_website_buyer from "./ghl_website_buyer.png";
 import ghl_website_seller from "./ghl_website_seller.png";
 import ghl_funnel_seller from "./ghl_funnel_seller.png";
 import ghl_funnel_buyer from "./ghl_funnel_buyer.png";
+import ghl_certificate from "./certificates/ghl_certificate.png";
+import n8n_certificate from "./certificates/n8n_certificate.png";
+import zapier_certificate from "./certificates/zapier_certificate.png";
 
 export {
   logo,
@@ -143,4 +146,7 @@ export {
   ghl_website_seller,
   ghl_funnel_seller,
   ghl_funnel_buyer,
+  ghl_certificate,
+  n8n_certificate,
+  zapier_certificate,
 };

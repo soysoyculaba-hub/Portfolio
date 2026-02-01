@@ -63,6 +63,9 @@ import {
   ghl_funnel_seller,
   ghl_funnel_buyer,
   willowbrook,
+  ghl_certificate,
+  n8n_certificate,
+  zapier_certificate,
 } from "../assets";
 
 
@@ -280,6 +283,27 @@ const testimonials = [
     company: "TechFlow Solutions",
     image: "https://randomuser.me/api/portraits/women/44.jpg",
   }
+];
+
+const certificates = [
+  {
+    title: "HighLevel CRM Full Training",
+    issuer: "Technical Virtual Assistants PH",
+    date: "January 4, 2026",
+    image: ghl_certificate,
+  },
+  {
+    title: "AI Automation with n8n Full Training",
+    issuer: "Technical Virtual Assistants PH",
+    date: "January 2, 2026",
+    image: n8n_certificate,
+  },
+  {
+    title: "No Code Automation with Zapier",
+    issuer: "Technical Virtual Assistants PH",
+    date: "December 28, 2025",
+    image: zapier_certificate,
+  },
 ];
 
 const portfolioProjects = [
@@ -687,4 +711,4 @@ const portfolioProjects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, portfolioProjects, automationTools, webTechStack };
+export { services, technologies, experiences, testimonials, portfolioProjects, automationTools, webTechStack, certificates };
