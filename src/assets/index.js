@@ -75,6 +75,7 @@ import ghl_funnel_buyer from "./ghl_funnel_buyer.png";
 import ghl_certificate from "./certificates/ghl_certificate.png";
 import n8n_certificate from "./certificates/n8n_certificate.png";
 import zapier_certificate from "./certificates/zapier_certificate.png";
+import willowbrook_dashboard from "./Dashboard Creation Willowbrook Property Solutions.png";
 
 export {
   logo,
@@ -149,4 +150,5 @@ export {
   ghl_certificate,
   n8n_certificate,
   zapier_certificate,
+  willowbrook_dashboard,
 };

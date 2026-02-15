@@ -66,6 +66,7 @@ import {
   ghl_certificate,
   n8n_certificate,
   zapier_certificate,
+  willowbrook_dashboard,
 } from "../assets";
 
 
@@ -542,7 +543,7 @@ const portfolioProjects = [
           { name: "crm", color: "green-text-gradient" },
           { name: "analytics", color: "pink-text-gradient" },
         ],
-        image: crm,
+        image: willowbrook_dashboard,
         source_code_link: "https://drive.google.com/drive/folders/1qC04lMWAxaHTmuGaGV76UcgsZeR6Xth6?usp=sharing",
       },
     ],
