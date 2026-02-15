@@ -76,6 +76,11 @@ import ghl_certificate from "./certificates/ghl_certificate.png";
 import n8n_certificate from "./certificates/n8n_certificate.png";
 import zapier_certificate from "./certificates/zapier_certificate.png";
 import willowbrook_dashboard from "./Dashboard Creation Willowbrook Property Solutions.png";
+import seller_sms_drip from "./Seller SMS Drip Automation.png";
+import buyer_sms_drip from "./Buyer SMS Drip Automation.png";
+import seller_lead_automation from "./Seller Lead Automation.png";
+import buyer_lead_automation from "./Buyer Lead Automation.png";
+import lead_disposition from "./Lead Disposition.png";
 
 export {
   logo,
@@ -151,4 +156,9 @@ export {
   n8n_certificate,
   zapier_certificate,
   willowbrook_dashboard,
+  seller_sms_drip,
+  buyer_sms_drip,
+  seller_lead_automation,
+  buyer_lead_automation,
+  lead_disposition,
 };
