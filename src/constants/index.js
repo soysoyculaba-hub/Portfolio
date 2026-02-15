@@ -72,6 +72,8 @@ import {
   seller_lead_automation,
   buyer_lead_automation,
   lead_disposition,
+  lead_acquisition,
+  buyer_sms_drip_campaign,
 } from "../assets";
 
 
@@ -614,6 +616,32 @@ const portfolioProjects = [
           { name: "workflow", color: "green-text-gradient" },
         ],
         image: lead_disposition,
+        source_code_link: "https://drive.google.com/drive/folders/1e1gWpulL7rAJo_QGZ921RwkjuNERL0_3?usp=sharing",
+      },
+      {
+        title: "Lead Acquisition Workflow",
+        label: "GoHighLevel Automation",
+        description: "Automated lead acquisition workflow that captures and processes new leads from multiple sources. Automatically tags, assigns, and initiates nurture sequences for incoming prospects.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "automation", color: "pink-text-gradient" },
+          { name: "lead-generation", color: "blue-text-gradient" },
+          { name: "workflow", color: "green-text-gradient" },
+        ],
+        image: lead_acquisition,
+        source_code_link: "https://drive.google.com/drive/folders/1e1gWpulL7rAJo_QGZ921RwkjuNERL0_3?usp=sharing",
+      },
+      {
+        title: "Buyer SMS Drip Campaign",
+        label: "GoHighLevel Automation",
+        description: "Comprehensive SMS drip campaign workflow for buyer leads. Delivers strategic messaging sequences to engage cash buyers and nurture them through the acquisition funnel.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "sms", color: "blue-text-gradient" },
+          { name: "automation", color: "pink-text-gradient" },
+          { name: "real-estate", color: "green-text-gradient" },
+        ],
+        image: buyer_sms_drip_campaign,
         source_code_link: "https://drive.google.com/drive/folders/1e1gWpulL7rAJo_QGZ921RwkjuNERL0_3?usp=sharing",
       },
     ],

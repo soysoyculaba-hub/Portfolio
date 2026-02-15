@@ -81,6 +81,8 @@ import buyer_sms_drip from "./Buyer SMS Drip Automation.png";
 import seller_lead_automation from "./Seller Lead Automation.png";
 import buyer_lead_automation from "./Buyer Lead Automation.png";
 import lead_disposition from "./Lead Disposition.png";
+import lead_acquisition from "./Lead Acquisition.png";
+import buyer_sms_drip_campaign from "./Buyer and SMS Drip Campaign.png";
 
 export {
   logo,
@@ -161,4 +163,6 @@ export {
   seller_lead_automation,
   buyer_lead_automation,
   lead_disposition,
+  lead_acquisition,
+  buyer_sms_drip_campaign,
 };
