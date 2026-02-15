@@ -410,7 +410,7 @@ const portfolioProjects = [
     name: "GoHighLevel",
     projects: [
       {
-        title: "Real Estate Buyer Website",
+        title: "Willowbrook Buyer Site",
         label: "GoHighLevel Website",
         description: "A professional real estate investing website designed to attract off-market deals and cash buyers. Features a clean, high-equity focused layout with clear value propositions and strong calls to action.",
         tags: [
@@ -420,10 +420,10 @@ const portfolioProjects = [
           { name: "figma", color: "pink-text-gradient" },
         ],
         image: ghl_website_buyer,
-        source_code_link: "https://www.figma.com/design/YxZRbkjKaN9NapyQ5xIv1C/Funnel-and-Website-Design--GoHighLevel-?node-id=4-33&t=v3Psz7Vl1G4EaiLQ-1",
+        source_code_link: "https://columbusoffmarketdeals.com",
       },
       {
-        title: "Real Estate Seller Website",
+        title: "Willowbrook Seller Site",
         label: "GoHighLevel Website",
         description: "A conversion-optimized website for purchasing homes for cash. Designed to build trust with motivated sellers through testimonials, a clear 'How It Works' process, and easy-to-use inquiry forms.",
         tags: [
@@ -433,10 +433,10 @@ const portfolioProjects = [
           { name: "lead-generation", color: "pink-text-gradient" },
         ],
         image: ghl_website_seller,
-        source_code_link: "https://www.figma.com/design/YxZRbkjKaN9NapyQ5xIv1C/Funnel-and-Website-Design--GoHighLevel-?node-id=4-33&t=v3Psz7Vl1G4EaiLQ-1",
+        source_code_link: "https://willowbrookpropertysolutions.com",
       },
       {
-        title: "Seller Lead Funnel",
+        title: "Willowbrook Seller Funnel",
         label: "GoHighLevel Funnel",
         description: "High-converting sales funnel targeted at homeowners looking to sell fast without repairs. Features stress-free selling points, guaranteed closing offers, and a streamlined multi-step form to capture high-intent leads.",
         tags: [
@@ -446,10 +446,10 @@ const portfolioProjects = [
           { name: "conversion-rate-optimization", color: "blue-text-gradient" },
         ],
         image: ghl_funnel_seller,
-        source_code_link: "https://www.figma.com/design/YxZRbkjKaN9NapyQ5xIv1C/Funnel-and-Website-Design--GoHighLevel-?node-id=4-33&t=v3Psz7Vl1G4EaiLQ-1",
+        source_code_link: "https://sell.willowbrookpropertysolutions.com",
       },
       {
-        title: "Buyer Investor Funnel",
+        title: "Willowbrook Buyer Funnel",
         label: "GoHighLevel Funnel",
         description: "Exclusive access funnel for serious real estate investors. Designed to build a cash buyers list by offering priority access to off-market deals, leveraging scarcity and exclusivity to drive sign-ups.",
         tags: [
@@ -459,7 +459,7 @@ const portfolioProjects = [
           { name: "list-building", color: "blue-text-gradient" },
         ],
         image: ghl_funnel_buyer,
-        source_code_link: "https://www.figma.com/design/YxZRbkjKaN9NapyQ5xIv1C/Funnel-and-Website-Design--GoHighLevel-?node-id=4-33&t=v3Psz7Vl1G4EaiLQ-1",
+        source_code_link: "https://buyers.columbusoffmarketdeals.com",
       },
       {
         title: "Booking Appointment & Reminder System",
