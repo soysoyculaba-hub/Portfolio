@@ -532,6 +532,19 @@ const portfolioProjects = [
         image: rfc_fire_safety_funnel,
         source_code_link: "https://drive.google.com/drive/folders/1hc49kDsZaTrr-mBgRcUyKXEZZH4DudBL?usp=sharing",
       },
+      {
+        title: "Willowbrook Performance Dashboard",
+        label: "GoHighLevel Dashboard",
+        description: "A comprehensive performance tracking dashboard for Willowbrook Property Solutions. Features real-time lead status tracking, conversion rates, and pipeline management to provide actionable business insights.",
+        tags: [
+          { name: "gohighlevel", color: "orange-text-gradient" },
+          { name: "dashboard", color: "blue-text-gradient" },
+          { name: "crm", color: "green-text-gradient" },
+          { name: "analytics", color: "pink-text-gradient" },
+        ],
+        image: crm,
+        source_code_link: "https://drive.google.com/drive/folders/1qC04lMWAxaHTmuGaGV76UcgsZeR6Xth6?usp=sharing",
+      },
     ],
   },
   {
