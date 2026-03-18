@@ -89,6 +89,15 @@ import retell_ai from "./retell_ai.png";
 import sofia_receptionist from "./sofia_receptionist.png";
 import julia_intake from "./julia_intake.png";
 import sales_agent from "./sales_agent.png";
+import sofia_check_calendar from "./sofia_check_calendar.png";
+import sofia_book_appointment from "./sofia_book_appointment.png";
+import sofia_cancel_appointment from "./sofia_cancel_appointment.png";
+import sofia_send_message from "./sofia_send_message.png";
+import sofia_workflow from "./sofia_workflow.png";
+import julia_intake_workflow from "./julia_intake_workflow.png";
+import retell_post_call_workflow from "./retell_post_call_workflow.png";
+import pdf_batch_workflow from "./pdf_batch_workflow.png";
+import boldsign_workflow from "./boldsign_workflow.png";
 
 
 
@@ -179,6 +188,15 @@ export {
   sofia_receptionist,
   julia_intake,
   sales_agent,
+  sofia_check_calendar,
+  sofia_book_appointment,
+  sofia_cancel_appointment,
+  sofia_send_message,
+  sofia_workflow,
+  julia_intake_workflow,
+  retell_post_call_workflow,
+  pdf_batch_workflow,
+  boldsign_workflow,
 };
 
 
