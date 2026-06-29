@@ -197,6 +197,10 @@ const Contact = () => {
         <div className='h-[350px] w-full'>
           <EarthCanvas />
         </div>
+        {/* Drag hint */}
+        <p className="absolute bottom-24 w-full text-center text-secondary text-[12px] tracking-widest uppercase pointer-events-none animate-bounce">
+          ⟳ Drag to Rotate
+        </p>
       </motion.div>
     </div>
   );
