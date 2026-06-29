@@ -34,9 +34,25 @@ const SmoothScroll = ({ children }) => {
         // Disable lag smoothing in GSAP to ensure checking happens every frame
         gsap.ticker.lagSmoothing(0);
 
+        // Intercept hash links to scroll smoothly with Lenis on the first click
+        const handleAnchorClick = (e) => {
+            const link = e.target.closest('a');
+            if (link && link.hash && link.hash.startsWith('#')) {
+                const targetId = link.hash.slice(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    e.preventDefault();
+                    lenis.scrollTo(targetElement);
+                }
+            }
+        };
+
+        document.addEventListener('click', handleAnchorClick);
+
         // Cleanup function
         return () => {
             lenis.destroy();
+            document.removeEventListener('click', handleAnchorClick);
             gsap.ticker.remove((time) => {
                 lenis.raf(time * 1000);
             });

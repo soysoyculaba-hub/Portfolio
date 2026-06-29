@@ -86,6 +86,7 @@ import lead_disposition from "./Lead Disposition.png";
 import lead_acquisition from "./Lead Acquisition.png";
 import buyer_sms_drip_campaign from "./Buyer and SMS Drip Campaign.png";
 import retell_ai from "./retell_ai.png";
+import retell from "./retell.svg";
 import sofia_receptionist from "./sofia_receptionist.png";
 import julia_intake from "./julia_intake.png";
 import sales_agent from "./sales_agent.png";
@@ -185,6 +186,7 @@ export {
   lead_acquisition,
   buyer_sms_drip_campaign,
   retell_ai,
+  retell,
   sofia_receptionist,
   julia_intake,
   sales_agent,

@@ -76,6 +76,7 @@ import {
   lead_acquisition,
   buyer_sms_drip_campaign,
   retell_ai,
+  retell,
   sofia_receptionist,
   julia_intake,
   sales_agent,
@@ -89,6 +90,7 @@ import {
   pdf_batch_workflow,
   boldsign_workflow,
 } from "../assets";
+
 
 
 
@@ -110,7 +112,7 @@ export const navLinks = [
 const services = [
   {
     title: "AI Automation",
-    description: "Building smart automations using Zapier, GoHighLevel, and n8n that eliminate repetitive tasks and reduce manual work.",
+    description: "Building smart automations using n8n, GoHighLevel, Zapier, and Retell AI that eliminate repetitive tasks and reduce manual work.",
     icon: automation,
   },
   {
@@ -124,10 +126,10 @@ const services = [
     icon: crm,
   },
   {
-    title: "Social Media Management",
-    description: "Designing graphics, scheduling posts, and managing your social presence to keep your brand consistent and engaging.",
-    icon: social,
-  },
+    title: "AI Voice Agents",
+    description: "Building multi-agent AI phone systems using Retell AI and Twilio, integrated with n8n for end-to-end call handling, appointment booking, and client onboarding.",
+    icon: retell,
+  }
 ];
 
 const technologies = [
@@ -224,6 +226,7 @@ const webTechStack = [
   { name: "WordPress", icon: "https://cdn.simpleicons.org/wordpress/21759B" },
   { name: "Elementor", icon: "https://cdn.simpleicons.org/elementor/92003B" },
   { name: "Webflow", icon: "https://cdn.simpleicons.org/webflow/4353FF" },
+  { name: "Shopify", icon: "https://cdn.simpleicons.org/shopify/96BF48" },
   { name: "Figma", icon: figma },
   { name: "Hostinger", icon: "https://cdn.simpleicons.org/hostinger/673DE6" },
   { name: "cPanel", icon: "https://cdn.simpleicons.org/cpanel/FF6C2C" },
@@ -238,11 +241,10 @@ const experiences = [
     iconBg: "#000000",
     date: "July 2024 - November 2025",
     points: [
-      "Designed and launched 5+ client websites using Hostinger and Webflow, improving client online visibility and conversions.",
-      "Built and automated 40+ workflows in GoHighLevel based on Cresta call dispositions, reducing lead tracking errors by 90%.",
-      "Created custom Cresta fields to capture call keywords, reducing manual tracking time by 60%.",
-      "Developed dynamic reporting dashboards to visualize call outcomes, enhancing sales team decision-making.",
-      "Designed high-converting funnels and lead generation pages, increasing lead capture rates by up to 30%.",
+      "Launched 5+ client websites using Hostinger and Webflow.",
+      "Automated 40+ GoHighLevel workflows, cutting lead tracking errors by 90%.",
+      "Built custom Cresta fields and reporting dashboards for the sales team.",
+      "Designed high-converting funnels that increased lead capture by 30%.",
     ],
   },
   {
@@ -252,12 +254,10 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Dec 2025 - March 2026",
     points: [
-      "Developed and maintained responsive website pages using HTML, CSS, and JavaScript.",
-      "Integrated website forms with Google Forms and automated data capture into Google Sheets for lead tracking and internal workflows.",
-      "Improved website structure, layout, and UI for better user experience and performance.",
-      "Implemented SEO improvements, including on-page optimization, semantic HTML, and performance best practices to enhance search visibility.",
-      "Conducted ongoing website updates, bug fixes, and content improvements based on business needs.",
-      "Collaborated with stakeholders to implement design and functionality enhancements efficiently.",
+      "Built and maintained responsive web pages using HTML, CSS, and JavaScript.",
+      "Integrated Google Forms with Sheets for automated lead tracking.",
+      "Applied on-page SEO and performance improvements to boost search visibility.",
+      "Delivered ongoing updates and bug fixes based on stakeholder feedback.",
     ],
   },
   {
@@ -267,10 +267,10 @@ const experiences = [
     iconBg: "#ffffff",
     date: "Jan 2026",
     points: [
-      "Designed and implemented high-converting funnels and website automations to streamline lead acquisition.",
-      "Developed custom dashboards to provide actionable business insights and real-time performance tracking.",
-      "Built a fully integrated CRM system in GoHighLevel specifically tailored for real estate business operations.",
-      "Orchestrated complex workflows to automate follow-ups and lead management, improving operational efficiency.",
+      "Built a full GoHighLevel CRM tailored for real estate operations.",
+      "Created high-converting funnels and websites for buyer and seller lead generation.",
+      "Developed custom dashboards for real-time performance tracking.",
+      "Automated follow-up workflows to improve lead management efficiency.",
     ],
   },
   {
@@ -280,10 +280,22 @@ const experiences = [
     iconBg: "#ffffff",
     date: "Feb 2026",
     points: [
-      "Built and deployed a multi-agent AI phone system using Retell AI, including a receptionist agent, intake agent, and sales agent — passing 22+ simulation tests before going live.",
-      "Developed complex n8n automation workflows integrating Retell AI with Microsoft Outlook Calendar, BoldSign (e-signatures), and Twilio for end-to-end call handling and client onboarding.",
-      "Engineered a batch document processing pipeline in n8n that auto-summarizes state registration PDFs from Google Drive across 52 U.S. states for RapidRegisteredAgent.com.",
-      "Resolved production-level integration bugs across live AI agents, including prompt logic, email formatting, calendar date handling, and call transfer flows.",
+      "Deployed a 3-agent AI phone system (receptionist, intake, sales) using Retell AI.",
+      "Built n8n workflows connecting Retell AI, Outlook Calendar, BoldSign, and Twilio.",
+      "Engineered a batch pipeline to auto-summarize 1,500+ PDFs across 52 U.S. states.",
+      "Resolved live production bugs across AI agents, including call transfers and e-signatures.",
+    ],
+  },
+  {
+    title: "Freelance Web Developer",
+    company_name: "ALZ Designs – Melbourne, Australia",
+    icon: web,
+    iconBg: "#ffffff",
+    date: "June 2026",
+    points: [
+      "Built Ana Rendering Services' full landing page from scratch using HTML, CSS, and JavaScript.",
+      "Handled image conversion, Formspree integration, Vercel deployment, and DNS setup.",
+      "Connected custom domains and updated branding assets across 3 client sites.",
     ],
   },
 ];
@@ -885,6 +897,25 @@ const portfolioProjects = [
         source_code_link: "#",
       },
 
+    ],
+  },
+  {
+    id: "shopify",
+    name: "Shopify",
+    projects: [
+      {
+        title: "Shopify E-Commerce Store",
+        label: "Shopify Development",
+        description: "Full e-commerce store built on Shopify with a custom theme, product catalog setup, payment gateway integration, and a conversion-optimized layout designed to drive sales.",
+        tags: [
+          { name: "shopify", color: "green-text-gradient" },
+          { name: "ecommerce", color: "blue-text-gradient" },
+          { name: "ui-design", color: "pink-text-gradient" },
+          { name: "conversion-optimization", color: "orange-text-gradient" },
+        ],
+        image: shopify,
+        source_code_link: "#",
+      },
     ],
   },
   {
