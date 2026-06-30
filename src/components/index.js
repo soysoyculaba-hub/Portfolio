@@ -13,6 +13,7 @@ import GridBackground from "./GridBackground";
 import Preloader from "./Preloader";
 
 import SmoothScroll from "./SmoothScroll";
+import Chatbot from "./Chatbot";
 export {
   Hero,
   Navbar,
@@ -30,5 +31,6 @@ export {
   ComputersCanvas,
   StarsCanvas,
   SmoothScroll,
-  Certificates
+  Certificates,
+  Chatbot
 };
